@@ -1,9 +1,7 @@
 
 /* Some default styles to make each box visible */
 /*variables*/
-:root{
-    --size: 20px;
-}
+
 .box {
     color:white;
     font-size: 20px;
@@ -28,9 +26,9 @@
       display: flex;
       flex-direction: column-reverse;
       align-items: center;
-      height: 100vh;
-      background: #16a085;
-      
+      min-height: 100vh;
+       background: #16a085; 
+    /* border:1px solid goldenrod;   */
   }
 
   .box1{
