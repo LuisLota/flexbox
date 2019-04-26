@@ -100,6 +100,10 @@ html {
       display:flex;
       flex-direction:column;
   }
+  .signup{
+ 
+    flex-wrap: wrap;
+}
 
   /*flex item*/
   .wrapper > * {
@@ -120,4 +124,20 @@ order:999;
       display: none;
   }
 
+  .flex-nav ul.open{
+      display:flex;
+  }
+
+  .top{
+      order:2;
+  }
+
+  .details{
+      order:3;
+  }
+  .signup{
+      order:4;
+      flex-wrap: wrap;
+      padding-bottom: 100px;
+  }
   }
